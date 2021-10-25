@@ -371,8 +371,8 @@ export default function Main() {
 				</div>
 				{display && <BroadHeader />}
 			</div>
-			{noofHotel && <Topic />}
-			{!noofHotel && <NotFound />}
+			{noofHotel !== 0 && <Topic />}
+			{noofHotel === 0 && <NotFound />}
 		</>
 	);
 }

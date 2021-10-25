@@ -255,6 +255,10 @@ div.mobile-display {
 	div.search {
 		margin: 75px auto 25px;
 	}
+
+	div.notfound > img {
+		max-width: 100%;
+	}
 }
 
 @media only screen and (max-width: 1260px) {
