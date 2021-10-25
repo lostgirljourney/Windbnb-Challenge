@@ -1,0 +1,70 @@
+div.hotelcard {
+	width: 395px;
+	height: 344px;
+	margin-bottom: 49px;
+}
+
+img.card-img {
+	border-radius: 24px;
+	width: 395px;
+	height: 269px;
+}
+
+div.line1 {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 10px;
+}
+
+div.sub-line {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 292px;
+}
+
+p.sh {
+	width: 100px;
+	height: 28px;
+	border: 1px solid #4f4f4f;
+	box-sizing: border-box;
+	border-radius: 12px;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+	color: #4f4f4f;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-right: 11px;
+}
+
+p.type {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	color: #828282;
+}
+
+p.rate {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+span.star_rate {
+	color: #eb5757;
+}
+
+p.desc {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	color: #333333;
+	margin-top: 10px;
+}

@@ -1,0 +1,18 @@
+.footer-section {
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	margin-top: 50px;
+	color: #a9a9a9;
+	padding-bottom: 5px;
+}
+
+a.username {
+	color: #a9a9a9;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.username:hover {
+	color: #18a0fb;
+}
